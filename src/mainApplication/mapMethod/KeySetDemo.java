@@ -50,7 +50,19 @@ public class KeySetDemo {
 		}
 		
 		
-		
-		
+		/*
+		 * {1=[empId=1, empNmae=anil, empSalary=5000.0, empgender=M, empcity=PUNE],
+		 * 4=[empId=5, empNmae=anita, empSalary=7000.0, empgender=F, empcity=MUMBAI]}
+		 * 
+		 * GIVEN 1 :-map of employee is provided and map is not empty, REQUIREMENT1 :-
+		 * only wants the set of key for map entries set of keys:- [1, 4]
+		 * 
+		 * GIVEN 2:-if map is empty REQUIREMENT2 :- only wants the set of key for map
+		 * entries set of keys but it is empty:- []
+		 * 
+		 * GIVEN 3:-if map is null REQUIREMENT2 :- only wants the set of key for map
+		 * entries java.lang.NullPointerException at
+		 * mainApplication.mapMethod.KeySetDemo.main(KeySetDemo.java:44)
+		 */
 	}
 }
