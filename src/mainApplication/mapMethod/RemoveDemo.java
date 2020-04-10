@@ -24,12 +24,14 @@ public class RemoveDemo {
 		mapOfEmployee.put(e1.getEmpId(), e1);
 		mapOfEmployee.put(e2.getEmpId(), e2);
 		System.out.println(mapOfEmployee);
-		System.out.println("method :- remove , argument :- key and value , Return:- the object which is removed");
+		System.out.println("method :- remove , argument :- key  , Return:- the object which is removed");
 		System.out.println("remove entry from map on the basis of matching key ");
 		System.out.println("KEY 4 to be removed");
 		Employee removed=mapOfEmployee.remove(e2.getEmpId());
 		System.out.println("removed object :- " + removed);
 		
+		
+		System.out.println("\n remove another  overided method");
 		System.out.println(mapOfEmployee);
 		System.out.println("\n method :- remove , argument :- key and value ,Return:- boolean");
 		System.out.println("remove entry from map only and only if key and value both match ");
@@ -59,17 +61,19 @@ public class RemoveDemo {
 	
 	/*
 	
-	empty map is created
+empty map is created
 {}
 
  add new entry in the map
 entry :- [empId=1, empNmae=anil, empSalary=5000.0, empgender=M, empcity=PUNE]
 entry :- [empId=4, empNmae=sunil, empSalary=8000.0, empgender=M, empcity=PUNE]
 {1=[empId=1, empNmae=anil, empSalary=5000.0, empgender=M, empcity=PUNE], 4=[empId=4, empNmae=sunil, empSalary=8000.0, empgender=M, empcity=PUNE]}
-method :- remove , argument :- key and value , Return:- the object which is removed
+method :- remove , argument :- key  , Return:- the object which is removed
 remove entry from map on the basis of matching key 
 KEY 4 to be removed
 removed object :- [empId=4, empNmae=sunil, empSalary=8000.0, empgender=M, empcity=PUNE]
+
+ remove another  overided method
 {1=[empId=1, empNmae=anil, empSalary=5000.0, empgender=M, empcity=PUNE]}
 
  method :- remove , argument :- key and value ,Return:- boolean
